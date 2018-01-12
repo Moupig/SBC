@@ -4,5 +4,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-  
+    <!--Logo-->
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <!--Add name-->
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="SBC Money Change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--date-->
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:text="12-1-18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <!--Rate title-->
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Rate USD/THB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <!--Rate Value-->
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:text="33.12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <!--Button Calculate-->
+
 </LinearLayout>
