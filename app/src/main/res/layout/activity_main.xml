@@ -8,7 +8,6 @@
 
     <!--Wallpaper-->
     <ImageView
-        android:alpha="0.5"
         android:scaleType="centerCrop"
         android:src="@drawable/bg7"
         android:layout_width="match_parent"
