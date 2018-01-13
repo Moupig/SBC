@@ -70,11 +70,15 @@ public class CalculateFragment extends Fragment{
 //                    Have Space
                     myAlert("Have Space", "Please Fill Money in Blank");
 
-
                 } else {
 //                    no Space
+                    double moneyDouble = Double.parseDouble(moneyString);
+                    double answerDouble = moneyDouble * aDouble;
+                    String answerString = "Thai Baht ==>" + Double.toString(answerDouble) + " THB";
+                    myAlert("Your" + moneyString + "USD", answerString);
+                    editText.setText("");
 
-                }
+                }   //  if
 
 
 
